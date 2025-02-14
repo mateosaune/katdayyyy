@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FELIZ SAN VALENTÍN</title>
+    <link rel="stylesheet" href="../css/styles2.css">
+</head>
+<body>
+
+    <!-- VIDEO DE FONDO -->
+    <div class="fondo-video">
+        <video autoplay loop muted>
+            <source src="../img/ListVid_Labubu_jpbcrw.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- CONTENIDO DEL JUEGO -->
+    <div class="container">
+        <h1>¡Hora de atormentarte, demasiado tarde para huir de una lluvia de labubus! ❤️</h1>
+        <p>Capturar 10 corazones para el siguiente nivel. De todas formas seras mi San Valentin 😡</p>
+
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+
+        <p class="counter">Corazones capturados: <span id="score">0</span>/10</p>
+
+        <div id="game-area"></div>
+    </div>
+
+    <!-- FONDO DE PARTÍCULAS -->
+    <canvas id="particles"></canvas>
+
+    <script src="../js/script2.js"></script>
+
+</body>
+</html>
